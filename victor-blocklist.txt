@@ -6,7 +6,11 @@
 /widget/ads.
 ||app.getsentry.com
 ! Ad / gambling / scam domains seen on Note9 (vlxx.phd), 2026-11-01
-||adxcontent.com^
+! adxcontent.com is NOT blocked by DNS: the vlstream player waits for its script and never starts without it.
+! uBlock Origin: fake the ad config instead, so the player starts with no pre-roll.
+play.vlstream.net##+js(set-constant, COUNT_VAST, 0)
+play.vlstream.net##+js(set-constant, funcGetvastAdx, noopFunc)
+play.vlstream.net##+js(set-constant, show_adx, 0)
 ||adsterra.com^
 ||k88.bot^
 ||sone.chat^
