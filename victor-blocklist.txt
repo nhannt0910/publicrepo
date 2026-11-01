@@ -5,3 +5,11 @@
 /pagead.js$domain=adblock.turtlecute.org
 /widget/ads.
 ||app.getsentry.com
+! Ad / gambling / scam domains seen on Note9 (vlxx.phd), 2026-11-01
+||adxcontent.com^
+||adsterra.com^
+||k88.bot^
+||sone.chat^
+||short-link.app^
+||chamsockhachhang.live^
+||mc.yandex.ru^
